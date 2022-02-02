@@ -1,0 +1,49 @@
+Next:
+
+* Plan ROM build, with PC
+* Plan CPU control logic
+* Build CPU control logic + signal LEDs
+* Build and connect bus
+
+
+CPU control lines:
+
+* Halt
+* Reset
+* PC out
+* PC load
+* PC count enable
+* Reg A enable
+* Reg A load
+* Reg B enable
+* Reg B load
+* MAR load
+* MAR enable
+* RAM bank set
+* RAM write
+* RAM read
+* ALU subtract
+* ALU enable
+* Load flags
+* IR load
+* Display CS - possible unnecessary
+* Display RST - possible unnecessary
+* Display send command
+* Display send data
+* Player input enable
+* ROM enable
+* ROM bank set
+* Step reset
+
+
+CPU inputs:
+
+* 8 * instruction register
+* ALU zero
+* ALU negative / top bit
+* ALU carry
+[* ALU odd]
+* 3 * step bits
+
+Instructions:
+
