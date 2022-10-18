@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist date="Tue Oct 18 21:01:22 2022" sketch="rom.fzz">
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J13" id="4621810" title="Generic female header - 1 pins"/>
+  </connector>
+  <connector id="connector15" name="pin16">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector10" name="pin11">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector23" name="pin24">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector20" name="pin21">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector19" name="pin20">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="pin10">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED10" id="5090930" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED11" id="5090940" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector17" name="pin18">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector11" name="pin12">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector19" name="pin20">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector7" name="pin8">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED1" id="1189690" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED2" id="1196160" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED3" id="1200620" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6" name="pin7">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part label="J4" id="69680" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector7" name="pin8">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J4" id="69680" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector6" name="pin7">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part label="J3" id="69490" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J3" id="69490" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part label="J2" id="69300" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J2" id="69300" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part label="J1" id="69110" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J1" id="69110" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8" name="pin9">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED4" id="5074250" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector8" name="pin9">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector9" name="pin10">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector7" name="pin8">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED5" id="5074260" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10" name="pin11">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector6" name="pin7">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED5" id="5074260" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED4" id="5074250" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED6" id="5076890" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part label="J8" id="378560" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector12" name="pin13">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector13" name="pin14">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11" name="pin12">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="J7" id="378220" title="Generic female header - 2 pins"/>
+  </connector>
+  <connector id="connector12" name="pin13">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11" name="pin12">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector10" name="pin11">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part label="J7" id="378220" title="Generic female header - 2 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J14" id="4813710" title="Generic female header - 1 pins"/>
+  </connector>
+  <connector id="connector18" name="pin19">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="pin3">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED1" id="1189690" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector18" name="pin19">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="cathode">
+   <part label="LED2" id="1196160" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector21" name="pin22">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22" name="pin23">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED3" id="1200620" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part label="J12" id="4612680" title="Generic female header - 1 pins"/>
+  </connector>
+  <connector id="connector14" name="pin15">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector12" name="pin13">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED7" id="5076900" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="pin16">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED8" id="5087970" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED10" id="5090930" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED9" id="5087980" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16" name="pin17">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED11" id="5090940" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14" name="pin15">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED9" id="5087980" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13" name="pin14">
+   <part label="IC2" id="844300" title="ROM (28C16A)"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED6" id="5076890" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector0" name="cathode">
+   <part label="LED8" id="5087970" title="Red (633nm) LED"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="anode">
+   <part label="LED7" id="5076900" title="Red (633nm) LED"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8" name="pin9">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector9" name="pin10">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="J11" id="1040660" title="Generic female header - 1 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="pin6">
+   <part label="IC3" id="928130" title="Rom Bank (74LS173)"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="pin16">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="J6" id="375920" title="Generic female header - 2 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector16" name="pin17">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part label="J5" id="373690" title="Generic female header - 2 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector14" name="pin15">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part label="J6" id="375920" title="Generic female header - 2 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector17" name="pin18">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="J5" id="373690" title="Generic female header - 2 pins"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector13" name="pin14">
+   <part label="LS245 Transceiver" id="4810890" title="LS245 Transceiver"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part label="J8" id="378560" title="Generic female header - 2 pins"/>
+  </connector>
+ </net>
+</netlist>
