@@ -1,48 +1,66 @@
 Next:
 
-* Plan ROM build, with PC
-* Plan CPU control logic
+Draws 1-1.2 Amps
+
+* DONE Plan ROM build, with PC
+* DONE Build ROM
+* DONE Build PC
+* DONE Plan CPU control logic
+  * All signals out are 1 when active, into LEDs, but some go through an inverter before reaching the relevant chips
+  * 74ls161 for the step counter
+  * Invert the clock - for the clock on the 74ls161
+  * 28C16 for control logic. 11 bit address space, 8 bits out each.
+  * Reset and inverse reset.
+  * Inverse reset AND inverse T5 from step counter = inverse step reset
+  * And a push button reset, between 5V (resistor to ground). Can do it with 4 NAND gates, a 74LS00
 * Build CPU control logic + signal LEDs
 * Build and connect bus
 
 
 CPU control lines:
 
+* !Reg A enable
+* !Reg A load
+* !Reg B enable
+* !Reg B load
+* !Reg C enable
+* !Reg C load
+* !RAM load
+* !RAM enable
+
+* B0: !Reset (add an extra output nub to get the uninverted signal)
 * Halt
-* Reset
-* PC out
-* PC load
+* Step reset
+* !PC out
+* !PC load
 * PC count enable
-* Reg A enable
-* Reg A load
-* Reg B enable
-* Reg B load
-* MAR load
-* MAR enable
-* RAM bank set
-* RAM write
-* RAM read
+* !IR load
+
+
+* !ROM enable
+* !ROM bank set
+* !RAM bank set
+* !MAR load
+// * !MAR enable
+
 * ALU subtract
-* ALU enable
-* Load flags
-* IR load
+* !ALU enable
+* !Load flags
+
 * Display CS - possible unnecessary
 * Display RST - possible unnecessary
 * Display send command
 * Display send data
 * Player input enable
-* ROM enable
-* ROM bank set
-* Step reset
 
 
 CPU inputs:
 
-* 8 * instruction register
+* 6 * instruction register
 * ALU zero
-* ALU negative / top bit
+// * ALU negative / top bit
 * ALU carry
-[* ALU odd]
+// [* ALU odd]
 * 3 * step bits
 
 Instructions:
