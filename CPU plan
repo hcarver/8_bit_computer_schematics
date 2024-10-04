@@ -13,7 +13,7 @@ Draws 1-1.2 Amps
   * Reset and inverse reset.
   * Inverse reset AND inverse T5 from step counter = inverse step reset
   * And a push button reset, between 5V (resistor to ground). Can do it with 4 NAND gates, a 74LS00
-* Build CPU control logic + signal LEDs
+* DONE Build CPU control logic + signal LEDs
 * Build and connect bus
 
 
